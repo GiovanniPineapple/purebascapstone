@@ -1,0 +1,25 @@
+/* Calendar Grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 días de la semana */
+  gap: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.calendar-cell {
+  padding: 10px;
+  background-color: #f1f1f1;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calendar-cell:hover {
+  background-color: #ddd;
+}
+
+/* Botones */
+button {
+  margin-top: 10px;
+}
